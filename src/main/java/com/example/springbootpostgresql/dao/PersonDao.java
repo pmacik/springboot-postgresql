@@ -1,10 +1,10 @@
-package com.servicebindingoperator.springbootpostgresql.dao;
+package com.example.springbootpostgresql.dao;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-import com.servicebindingoperator.springbootpostgresql.model.Person;
+import com.example.springbootpostgresql.model.Person;
 
 public interface PersonDao {
 	int insertPerson(UUID id, Person person);

@@ -1,4 +1,4 @@
-package com.servicebindingoperator.springbootpostgresql.service;
+package com.example.springbootpostgresql.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,8 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.servicebindingoperator.springbootpostgresql.dao.PersonDao;
-import com.servicebindingoperator.springbootpostgresql.model.Person;
+import com.example.springbootpostgresql.dao.PersonDao;
+import com.example.springbootpostgresql.model.Person;
 
 @Service
 public class PersonService {

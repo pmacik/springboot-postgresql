@@ -1,4 +1,4 @@
-package com.servicebindingoperator.springbootpostgresql.model;
+package com.example.springbootpostgresql.model;
 
 import java.util.UUID;
 
@@ -24,6 +24,5 @@ public class Person {
 	public String getName() {
 		return name;
 	}
-
-
 }
+

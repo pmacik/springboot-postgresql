@@ -1,6 +1,4 @@
-package com.servicebindingoperator.springbootpostgresql.api;
-
-
+package com.example.springbootpostgresql.api;
 
 import java.util.List;
 import java.util.UUID;
@@ -18,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.servicebindingoperator.springbootpostgresql.model.Person;
-import com.servicebindingoperator.springbootpostgresql.service.PersonService;
+import com.example.springbootpostgresql.model.Person;
+import com.example.springbootpostgresql.service.PersonService;
 
 @RequestMapping("api/v1/person")
 @RestController

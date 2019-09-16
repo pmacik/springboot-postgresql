@@ -1,4 +1,4 @@
-package com.servicebindingoperator.springbootpostgresql.dao;
+package com.example.springbootpostgresql.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.UUID;
 
 import org.springframework.stereotype.Repository;
 
-import com.servicebindingoperator.springbootpostgresql.model.Person;
+import com.example.springbootpostgresql.model.Person;
 
 @Repository("fakeDao")
 public class FakePersonDataAccessService implements PersonDao {
@@ -53,4 +53,3 @@ public class FakePersonDataAccessService implements PersonDao {
 	}
 
 }
-
