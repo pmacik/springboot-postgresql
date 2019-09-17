@@ -5,7 +5,7 @@
 
 - Spin postgresql container. 
 
-`podman run --name postgres-spring -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres:alpine`
+    `podman run --name postgres-spring -e POSTGRES_PASSWORD=password -d -p 5432:5432 postgres:alpine`
 
 - Get an access to DB ` podman exec -it 4fc8fc174aa8 bin/bash`
   - Inside container, get into db: `psql -U postgres`
