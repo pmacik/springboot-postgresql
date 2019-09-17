@@ -1,4 +1,4 @@
-package com.example.springbootpostgresql;
+package com.sbo.springbootpostgresql;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
