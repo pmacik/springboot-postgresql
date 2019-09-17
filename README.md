@@ -28,3 +28,5 @@
   - To delete entry: 
   
     `curl -X DELETE http://localhost:8080/accounts/1`
+  
+  - You can verify each step by running `SELECT * FROM account;` on your DB.
